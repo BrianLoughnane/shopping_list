@@ -1,0 +1,10 @@
+h1 {
+	font-family: monospace;
+	color:#470000;
+}
+
+#topbar {
+	border-radius: 10px;
+	background-color:#F0A700;
+	text-align: center;
+}
