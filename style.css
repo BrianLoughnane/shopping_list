@@ -1,10 +1,67 @@
-h1 {
-	font-family: monospace;
-	color:#470000;
+body {
+	background-color: #292929;
 }
 
-#topbar {
+#wrap {
+	width:300px;
+	left:auto;
+	right:auto;
+	background-color: #F0A739;
 	border-radius: 10px;
-	background-color:#F0A700;
-	text-align: center;
+	padding: 10px;
+	margin:auto;
+	border-radius: 5px;
+}
+
+#bar div {
+	display: inline-block;
+	padding: 1px;
+}
+
+#titleText {
+	font-size: 30px;
+	font-family: Sigmar One;
+}
+
+.ui {
+	font-family: Gloria Hallelujah;
+	font-size:16px;
+}
+
+.item {
+	font-family: Gloria Hallelujah;
+	margin:10px;
+	display:block;
+	font-size: 20px;
+}
+
+.checked_item {
+	font-family: Gloria Hallelujah;
+	margin:10px;
+	display:block;
+	font-size: 20px;
+	color:#4A4A4A;
+	text-decoration: line-through;
+}
+
+.open_box {
+	display: inline-block;
+	height:15px;
+	width:15px;
+	border-style:inset;
+	border-width:1px;
+	border-radius: 3px;
+	background-color:white;
+	margin-right:8px;
+}
+
+.checked_box {
+	display: none;
+	height:15px;
+	width:15px;
+	border-style:inset;
+	border-width:1px;
+	border-radius: 3px;
+	background-color:#006632;
+	margin-right:8px;
 }

@@ -6,20 +6,28 @@
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script type="text/javascript"; src="script.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 	<title>Shoppin' List</title>
 </head>
+<div id="wrap">
 
 <body>
 
-<div class="heading">
-	<h1>SHOPPIN' LIST</h1>
-	<button id="add">+</button>
+<div id="bar">
+	<div id="icon"><img src="basket.png"/></div>
+	<div id="titleText">Shoppin' List!</div>
 </div>
 
+<div id="inputarea">
+	<input class="ui" id="entry" placeholder="type item"/>
+	<button class="ui" id="add">Add Item</button>
+</div>
 
-<div id="pad">
-	<div class="item">A stick of butter</div>
-	<div class="checked_item">A loaf of bread</div>
+	
+<div class="item"><div class="open_box"></div>A stick of butter</div>
+<div class="checked_item"><div class="checked_box"></div>A loaf of bread</div>
+
 </div>
 
 </body>
