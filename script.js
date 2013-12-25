@@ -8,10 +8,13 @@ $(document).ready(function(){
 		});
 
 		my_item.on('dblclick', function(){
-			$(this).fadeOut('slow');
+			$(this).fadeOut('fast');
 		});
 
-		if (my_text!=""){$("#wrap").append(my_item);}
+		if (my_text!=""){
+			$("#wrap").append(my_item);
+			$("#entry").val("");
+		}
 
 		else{alert("Type an item in before you add it.")}
 	});
@@ -26,12 +29,13 @@ $(document).ready(function(){
 			});
 
 			my_item.on('dblclick', function(){
-				$(this).fadeOut('slow');
+				$(this).fadeOut('fast');
 			});
 
 			if (my_text!="")
 			{
 				$("#wrap").append(my_item);
+				$("#entry").val("");
 			}
 
 			else 
