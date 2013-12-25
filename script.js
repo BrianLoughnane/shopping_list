@@ -46,15 +46,3 @@ $(document).ready(function(){
 	});
 });
 
-
-	
-
-	//this is so the first sample item behaves like the rest
-		//$("div.food").click(function(){
-			//$(this).toggleClass("checked_food");
-		//});
-
-		//$("div.food").dblclick(function(){
-			//$(this).hide("slow");
-		//});
-
